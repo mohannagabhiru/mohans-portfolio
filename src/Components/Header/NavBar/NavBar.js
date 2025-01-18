@@ -6,7 +6,6 @@ import { BsPerson } from "react-icons/bs";
 import { AiOutlineBulb } from "react-icons/ai";
 import { AiOutlineProject } from "react-icons/ai";
 
-
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("#home");
 
@@ -55,7 +54,6 @@ const NavBar = () => {
             <span>Projects</span>
           </a>
         </li>
-
 
       </ul>
     </nav>

@@ -14,9 +14,9 @@ const About = () => {
       <div className={Styles.about}>
         <div className={Styles.about_left}>
           <p>
-            Hello World, I am Mohan Nagabhiru, a <span>Software Engineer </span>
-            Based out of Hyderabad, India. I describe myself as a passionate
-            developer who loves Coding and building websites.
+            Hello World, I am Mohan Nagabhiru, a <span>Software Engineer </span>.
+            I describe myself as a passionate
+            developer who loves coding and building websites.
           </p>
           <p>
             I'm a Techie with a Zeal to Develop Softwares to solve Real-World Problems!

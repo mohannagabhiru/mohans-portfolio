@@ -2,8 +2,10 @@ import React from "react";
 import Styles from "./Hero.module.css";
 
 import MohanLatest from "../../assets/MohanLatest.pdf";
-
 import heroPic from "../../assets/heroPic.gif";
+import link from "../../utils/Links";
+
+console.log("link", link);
 
 const Hero = () => {
   return (
@@ -16,13 +18,13 @@ const Hero = () => {
           <h2>I Write Code for Internet. </h2>
           <p>
             A Frontend Engineer with a strong Foundation in Technology and
-            Frameworks of today's Standards like  <span> JavaScript</span>, <span>React Native</span>, <span>React</span>, <span>Firebase</span>,
+            Frameworks of today's Standards like  <span> JavaScript</span>,  <span>React</span>, <span>React Native</span>, <span>Firebase</span>,
             etc. <br /> <br /> I heartily enjoy
             Building websites and web applications with attention to detail
           </p>
 
           <div className={Styles.buttons}>
-            <a href={MohanLatest} download className="button">
+            <a href={link} className="button">
               Resume
             </a>
           </div>
